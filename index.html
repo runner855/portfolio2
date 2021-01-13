@@ -30,7 +30,7 @@
                     <li class="nav__item"><a href="#services" class="nav__link">Technical Skills</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
-                    <li class="nav__item"><a href="contact-me.html#" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#foot" class="nav__link">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -46,26 +46,80 @@
 
         <!-- skills-->
         <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
+            <h2 class="section__title section__title--services">Skills</h2>
             <div class="services">
                 <div class="service">
-                    <h3>Design + Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Programming Foundations</h3>
+                    <ul>
+                        <li>Setting up the development enviroment</li>
+                        <li>Introduction to the command line(CLI)</li>
+                        <li>Introduction to Version control(Git and GitHub)</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Advanced CSS</li>
+                        <li>Tooling and workflow</li>
+                    </ul>
+                       
                     </div><!-- service -->
 
                 <div class="service">
-                    <h3>E-Commerce</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Programming Fundamentals</h3>
+                    <ul>
+                        <li>JavaScript basics</li>
+                        <li>DOM manipulation</li>
+                        <li>Object Oriented Programming</li>
+                        <li>Node Package Management and Jest</li>
+                        <li>Developer best practice</li>
+                        <li>Test Driven Development(TDD)</li>
+                        <li>Jest lifecycle methods</li>
+                        <li>Scope and closure modules</li>
+                        <li>JavaScript memory management</li>
+                        <li>Class and arrow functions</li>
+                        <li>Debugging</li>
+                        <li>Git workflow</li>
+                        <li>Coverage and test doubles</li>
+                    </ul>
                     </div><!-- service -->
 
                 <div class="service">
-                    <h3>WordPress</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Backend Develpment</h3>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Internet, the Web & HTTP</li>
+                        <li>Relational databases</li>
+                        <li>Web applications</li>
+                        <li>API development</li>
+                        <li>How do webapps work?</li>
+                        <li>Express.js</li>
+                        <li>Asynchronous code</li>
+                        <li>REST standards</li>
+                        <li>Sequelize</li>
+                        <li>Express Middlewares</li>
+                        <li>Clean code</li>
+                        <li>Deploying to a server</li>
+                    </ul>
                     </div><!-- service -->
+
+                    <div class="service">
+                        <h3>Front-End Modules</h3>
+                        <ul>
+                            <li>React</li>
+                            <li>ES6</li>
+                            <li>Wev requests</li>
+                            <li>Async React</li>
+                            <li>Lifecycle methods</li>
+                            <li>React Hooks</li>
+                            <li>Testing in React</li>
+                            <li>React Router</li>
+                            <li>Events & Forms</li>
+                            <li>State Management</li>
+                            <li>Styling React components</li>
+                            <li>SASS</li>
+                            <li>Git Flow</li>
+                            <li>OAuth</li>
+                            <li>Session Management</li>
+                        </ul>
+                        </div><!-- service -->
                 </div><!-- services -->
             
                 <a href="#work" class="btn">My Work</a>
@@ -79,12 +133,14 @@
 
             <div class="about-me__body">
                 <p>My name is Dario Milani I’m a Software Engineer Student at Manchester Codes, 
-                    after about 17 years in the catering industry as a Chef I decided to take a step in my career to move in what as always been my passion ,the tech industry. 
-                    I'm from the north of Italy , I split my life between Italy and UK, I'm happily married to Florence and together we have  two gorgeous boys David and Great. 
-                    I alway put passion in what I do.</p>
+                    I have been working as a professional chef for the past 18 years, but recently made the decision to change careers ,
+                     a decision I had been thinking long and hard on for many years. 
+                     Tech and coding had always been a passion of mine, and most recently I will be graduating from a Software Developer Bootcamp, 
+                     where I have studied the principles of Software Development, and what it takes to become a ‘business ready technical professional.
+                </p>
             </div>
 
-            <img src="Images/IMG_0042.jpg" alt="profile picture 2" class="intro__img">
+            <img src="Images/dario4.jpg" alt="profile picture 2" class="intro__img">
         </section>
 
         <!-- My Work -->
@@ -111,33 +167,30 @@
                     <img src="Images/cruise ships.png" alt="" class="portfolio__img">
                 </a>
 
-                <a href="#" class="portfolio__item">
-                    <img src="Images/p3.png" alt="" class="portfolio__img">
-                </a>
+                
 
             </div>
         </section>
 
         <!-- footer -->
-        <footer class="footer">
+        <footer class="footer" id="foot">
             
-            <a href="contact-me.html" class="btn-contact">Get In Touch </a>
         
 
             <a href="mailto:runner855@icloud.com" class="footer-link">runner855@icloud.com</a>
             <ul class="social-list">
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/runner855">
+                    <a class="social-list__link" href="https://github.com/runner855" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/dario-milani-302472132/">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dario-milani-302472132/" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/runner855">
+                    <a class="social-list__link" href="https://twitter.com/runner855" target="_blank">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </li>
@@ -148,7 +201,6 @@
 
 
         <script src="js/index.js"></script>
-        <script src="js/contact-me.js"></script>
 
 
 
